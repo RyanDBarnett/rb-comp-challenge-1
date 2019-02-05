@@ -1,13 +1,12 @@
 # Comp 1 Challenge
 
-This is the first project I completed during the front end program at the [Turing School of Software and Design](https://https://turing.io/). The point of the project was to build a 1-page static site to practice writing well structured, semantic HTML with clean, precise CSS, as well as adding some user interaction with Javascript and the DOM.
+This is the second project I completed during the front end program at the [Turing School of Software and Design](https://https://turing.io/). The point of the project was to recreate a 1-page site to practice writing well structured, semantic HTML with clean, precise CSS.
 
 You can visit the live finished version of this project at https://ryandbarnett.github.io/dog-party/.
 
 ## Key Features
 
 * **Responsive** - The content looks good on any screen size
-* **Mobile Menu** - I implemented a mobile menu using Javascript that shows or hides when the user clicks the menu icon.
 * **Flexbox** - Uses flexbox to make layout fluid
 
 
