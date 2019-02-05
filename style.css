@@ -1,0 +1,199 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #2B2B2B;
+  padding: 20px 30px; 
+}
+
+.main-nav {
+  display: flex;
+  margin: 30px 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.main-nav svg {
+  padding-right: 15px;
+}
+
+.main-nav ul {
+  padding-left: 0;
+}
+
+.main-nav li {
+  display: inline;
+  color: blue;
+  padding-right: 40px;
+}
+
+.main-nav svg {
+  color: #28A2E4;
+}
+
+.main-nav a {
+  color: #939393;
+  text-decoration: none;
+}
+
+.secondary-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#user {
+  display: flex;
+}
+
+#down-arrow {
+  align-self: center;
+}
+
+#user p {
+  color: #28A2E4;
+  font-weight: 400;
+  padding-left: 8px;
+  padding-right: 16px;
+  margin: 0;
+  align-self: center;
+}
+
+#logo {
+  align-self: center;
+  margin-left: auto;
+}
+
+main {
+  background-color: #EFEFEF;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  min-height: 2000px;
+}
+
+h1 {
+  color: #2B2B2B;
+  margin: 3% 0 3% 0;
+  width: 100%;
+  font-size: 3em;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(150, 150, 150);
+  width: 23.5%;
+  margin: 0 15px 15px 0;
+}
+
+.card header {
+  background-color: #28A2E4;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 15px 5px;
+  min-height: 150px;
+}
+
+.card header .fa-share {
+  color: #2B2B2B;
+}
+
+.card section {
+  padding: 15px 15px 15px 15px;
+}
+
+.card section a {
+  word-break: break-all;
+  background-color: #EFEFEF;
+  display: flex;
+  padding: 10px;
+  padding-right: 10%;
+  color: #6a6a6a;
+}
+
+.card .loves {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card .loves-container {
+  color: white;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.card .num-loves {
+  font-size: 2em;
+  margin: 5px 0 0 0;
+}
+
+.card h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  color: #6a6a6a;
+}
+
+.card h2 {
+  margin: 0;
+  color: #6a6a6a;
+  font-size: 1.2em;
+}
+
+.card .birthday {
+  margin: 5px 0 25px 0;
+  color: #6a6a6a;
+}
+
+.card .num-siblings {
+  color: #28A2E4;
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+
+.fa-stack {
+  cursor: pointer;
+}
+
+.bkgd {
+  background-size: cover;
+}
+
+#rabbit {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/rabbit.jpg);
+}
+
+#raccoon {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/raccoon.jpg);
+}
+
+#yak {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/yak.jpg);
+}
+
+#horse {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/horse.jpg);
+}
+
+#deer {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/deer.jpg);
+}
+
+#tiger {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/tiger.jpg);
+}
+
+#owl {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/owl.jpg);
+}
+
+#squirrel {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/squirrel.jpg);
+}
+
