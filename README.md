@@ -22,7 +22,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 
 ## What The Site Should Look Like
 
-![dog party website comp](images/dog-party-js-edition.jpg)
+![website comp](images/comp-1.png)
 
 ## Finished Project
 
