@@ -86,7 +86,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start;
-  min-height: 2000px;
 }
 
 h1 {
@@ -271,6 +270,7 @@ h1 {
 @media screen and (max-width: 800px) {
   .card {
     margin: auto;
+    min-height: 0;
   }
 
 }
