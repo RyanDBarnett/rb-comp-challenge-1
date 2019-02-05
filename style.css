@@ -225,3 +225,53 @@ h1 {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/squirrel.jpg);
 }
 
+@media screen and (max-width: 500px) {
+
+  body > header {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .main-nav {
+    display: block;
+    margin: 0;
+  }
+
+  .main-nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .main-nav li {
+    display: block;
+    list-style: none;
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+
+  .main-nav img {
+    display: block;
+    margin: auto;
+  }
+
+  .secondary-nav {
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    margin: auto;
+  }
+
+}
+
