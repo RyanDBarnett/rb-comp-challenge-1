@@ -3,7 +3,7 @@
 }
 
 header {
-  background: #2B2B2B;
+  background: #AF9164; /*#2B2B2B*/
   padding: 20px 30px; 
 }
 
@@ -29,13 +29,21 @@ header {
   padding-right: 40px;
 }
 
-.main-nav svg {
-  color: #28A2E4;
-}
+/*.main-nav svg {
+  color: #D8F793; #28A2E4
+}*/
 
 .main-nav a {
-  color: #939393;
+  color: #F7F3E3; /*#939393*/
   text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #D8F793;
+}
+
+.main-nav .active, .main-nav .active svg {
+  color: #D8F793;
 }
 
 .secondary-nav {
@@ -45,6 +53,12 @@ header {
 
 #user {
   display: flex;
+  text-decoration: none;
+  color: #F7F3E3;
+}
+
+#user:hover {
+  color: #D8F793;
 }
 
 #down-arrow {
@@ -52,7 +66,7 @@ header {
 }
 
 #user p {
-  color: #28A2E4;
+  /*color: #28A2E4;*/
   font-weight: 400;
   padding-left: 8px;
   padding-right: 16px;
@@ -66,7 +80,7 @@ header {
 }
 
 main {
-  background-color: #EFEFEF;
+  background-color: #F7F3E3; /*#EFEFEF*/
   padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +90,7 @@ main {
 }
 
 h1 {
-  color: #2B2B2B;
+  color: #AF9164; /*#2B2B2B*/
   margin: 3% 0 3% 0;
   width: 100%;
   font-size: 3em;
@@ -97,21 +111,34 @@ h1 {
   min-height: 150px;
 }
 
+.card .fa-stack-1x {
+  color: #6AB344;
+}
+
+.card .fa-stack-2x {
+  color: #F7F3E3;
+}
+
+.card .fa-stack:hover .fa-stack-2x {
+  color: #D8F793;
+}
+
 .card header .fa-share {
   color: #2B2B2B;
 }
 
 .card section {
+  background-color: #AF9164; /* NONE */
   padding: 15px 15px 15px 15px;
 }
 
 .card section a {
   word-break: break-all;
-  background-color: #EFEFEF;
+  background-color: #F7F3E3; /*#EFEFEF*/
   display: flex;
   padding: 10px;
   padding-right: 10%;
-  color: #6a6a6a;
+  color: #6AB344; /*#6a6a6a*/
 }
 
 .card .loves {
@@ -119,7 +146,7 @@ h1 {
   font-weight: 400;
   margin: 0;
   text-transform: uppercase;
-  color: white;
+  color:#F7F3E3; /*white*/
 }
 
 .card .loves-container {
@@ -131,28 +158,29 @@ h1 {
 .card .num-loves {
   font-size: 2em;
   margin: 5px 0 0 0;
+  color: #F7F3E3; /* NONE */
 }
 
 .card h3 {
   font-size: 1em;
   text-transform: uppercase;
   margin: 20px 0 5px 0;
-  color: #6a6a6a;
+  color: #F7F3E3; /*#6a6a6a*/
 }
 
 .card h2 {
   margin: 0;
-  color: #6a6a6a;
+  color: #F7F3E3; /*#6a6a6a*/
   font-size: 1.2em;
 }
 
 .card .birthday {
   margin: 5px 0 25px 0;
-  color: #6a6a6a;
+  color: #D8F793; /*#6a6a6a*/
 }
 
 .card .num-siblings {
-  color: #28A2E4;
+  color: #F7F3E3; /*#28A2E4*/
   font-size: 2.5em;
   margin: 0 0 10px;
 }
