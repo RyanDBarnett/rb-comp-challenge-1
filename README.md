@@ -2,7 +2,7 @@
 
 This is the second project I completed during the front end program at the [Turing School of Software and Design](https://https://turing.io/). The point of the project was to recreate a 1-page site to practice writing well structured, semantic HTML with clean, precise CSS.
 
-You can visit the live finished version of this project at https://ryandbarnett.github.io/dog-party/.
+You can visit the live finished version of this project at https://ryandbarnett.github.io/rb-comp-challenge-1/.
 
 ## Key Features
 
